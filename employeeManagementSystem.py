@@ -26,8 +26,8 @@ def print_border():
 def connect_db():
      return mysql.connector.connect(
         host="localhost",
-        user="root",   # Replace with your MySQL username
-        password="123456",  # Replace with your MySQL password
+        user="root",   
+        password="123456",  
         database="employee_management"
     )
 
